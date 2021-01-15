@@ -28,19 +28,20 @@
         <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
           <ul class="navbar-nav ">
             <li class="nav-item">
-              <a class="nav-link " href="#">About</a>
+              <a class="nav-link " href="#about">About</a>
             </li>
             <!-- <li class="nav-item ml-2">
               <a class="nav-link" href="#">Project</a>
             </li> -->
             <li class="nav-item ml-2">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item ml-2">
               <a class="nav-link" href="#">Photo</a>
             </li>
             <li class="nav-item ml-2">
-              <a class="nav-link" href="#">Download</a>
+              <a class="nav-link"
+                href="https://drive.google.com/uc?export=download&id=1Z0AHCiKyMDEPyA2fyk83xPylcSAqI_bb">Download</a>
             </li>
           </ul>
         </div>
@@ -63,7 +64,10 @@
       <h6 style="font-size:17px; margin-left: 18vw;">HELLO! MY NAME IS</h6>
       <h1 style="font-size:30px; margin-left: 18vw;">NGUYEN VAN TAN</h1>
       <p style="font-size:16px; margin-left: 18vw;"> I live in Da nang city</p>
-      <button style="margin-left: 18vw;" class="custom-btn btn-13">Download CV</button>
+      <a style="margin-left: 18vw; text-decoration: none;" class="custom-btn btn-13"
+        href="https://drive.google.com/uc?export=download&id=1Z0AHCiKyMDEPyA2fyk83xPylcSAqI_bb">Download CV</a>
+      <!-- https://drive.google.com/uc?export=download&id=1KKAgJ92TD0pk1z51TPMnlY03aXxYRouJ -->
+      <!-- <a href="https://drive.google.com/uc?export=download&id=1Z0AHCiKyMDEPyA2fyk83xPylcSAqI_bb"></a> -->
     </div>
     <div class="col-sm-5">
       <img src="./images/0.png" alt="" style="max-width:350px;width:auto;float:none">
@@ -96,7 +100,7 @@
       </div>
     </div>
     <br>
-    <div class="row">
+    <div id="about" class="row">
       <div class="col-sm-4">
         <h2>About Me</h2>
         <img src="./images/avt.jpg" style="height:360px" alt="">
@@ -185,9 +189,6 @@
 
       </div>
     </div>
-
-
-
     <br>
     <!-- <h2>Work Experience</h2>
     <div class="row mt-4">
@@ -222,24 +223,673 @@
       </div>
     </div> -->
 
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
 
-    <h5>Programming Languages</h5>
     <div class="row">
       <table class="table">
         <tbody>
           <tr>
-            <td><img src="./images/icon/java.png" style="max-width:100px; height: auto;" alt=""> Java</td>
-            <td><img src="./images/icon/python.png" style="max-width:100px; height: auto;" alt=""> Python</td>
-            <td><img src="./images/icon/js.png" style="max-width:100px; height: auto;" alt=""> JavaScript</td>
-            <td><img src="./images/icon/ts.png" style="max-width:100px; height: auto;" alt=""> TypeScript</td>
-            <td><img src="./images/icon/w.png" style="max-width:100px; height: auto;" alt=""> &nbsp;</td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/java.png" style="max-width:100px; height: auto;">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Java</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px; ">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/python.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Python</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/js.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">JavaScript</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/ts.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">TypeScript</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp;</p>
+                </div>
+              </div>
+            </td>
           </tr>
         </tbody>
       </table>
     </div>
+
     <h5>Frontend Development</h5>
     <div class="row">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/html.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">HTML</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/css.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Css</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/bot.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Bootstrap</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/angular.png"
+                    style="max-width:100px; height: auto;" alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Angular</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/agujs.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Angular JS</p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h5>Backend Development</h5>
+    <div class="row">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/boot.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Java spring boot</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/swing.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Java swing</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h5>Database</h5>
+    <div class="row">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/mss.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">SQL Sever</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/mysql.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">My SQL</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h5>Data Visualization</h5>
+    <div class="row">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/char.svg" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">CharJS</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h5>Devops</h5>
+    <div class="row">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/azure-1.png"
+                    style="max-width:100px; height: auto;" alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Azure</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h5>Backend as a Service(BaaS)</h5>
+    <div class="row">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/fire.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Firebase</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h5>Testing</h5>
+    <div class="row">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/se.jpg" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Selenium</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h5>Design Software</h5>
+    <div class="row">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/pts.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Photoshop</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/lr.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Lightroom</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/camtasia.png"
+                    style="max-width:100px; height: auto;" alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Camtasia Studio</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h5>Other</h5>
+    <div class="row">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/git.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Git</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/github.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Github</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/postman.png"
+                    style="max-width:100px; height: auto;" alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1">Postman</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card " style="border: 0px;background: #fefeff;">
+                <div class="align-self-center">
+                  <img class="img-icon responsive" src="./images/icon/w.png" style="max-width:100px; height: auto;"
+                    alt="">
+                </div>
+                <div>
+                  <p class="card-text text-center mt-1"> &nbsp; </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <!-- <h5>Programming Languages</h5>
+    <div class="row">
+     
+    </div>
+    <div class="row">
+      <table class="table responsive">
+        <tbody>
+          <tr>
+            <td><img class="responsive" src="./images/icon/java.png" style="width:100px; height: auto;" alt=""> Java</td>
+            <td><img  class="responsive" src="./images/icon/python.png" style="width:100px; height: auto;" alt=""> Python</td>
+            <td><img class="responsive" src="./images/icon/js.png" style="width:100px; height: auto;" alt=""> JavaScript</td>
+            <td><img class="responsive" src="./images/icon/ts.png" style="width:100px; height: auto;" alt=""> TypeScript</td>
+            <td><img class="responsive" src="./images/icon/w.png" style="width:100px; height: auto;" alt=""> &nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h5>Frontend Development</h5> -->
+
+    <!-- <div class="row">
       <table class="table">
         <tbody>
           <tr>
@@ -367,15 +1017,30 @@
           </tr>
         </tbody>
       </table>
-    </div>
+    </div> -->
 
 
 
 
 
   </div>
-  <div class="jumbotron text-center mt-5" style="margin-bottom:0">
-    <p>Footer</p>
+  <div class="jumbotron text-center mt-5" style="margin-bottom:0; background-image: url(./images/0122.jpg);">
+    <div class="foot">
+      <div class="row d-flex justify-content-lg-center">
+        <h4>Contact me</h4>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 text-wrap">
+          FB: fb.com/vantan.exfick<br><br>
+          Email: vantanb1k55@gmail.com
+
+        </div>
+        <div class="col-sm-6">
+          Phone: 0325 77 29 29<br><br>
+          Github: github.com/74nguyentan
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="https://unpkg.com/scrollreveal"></script>

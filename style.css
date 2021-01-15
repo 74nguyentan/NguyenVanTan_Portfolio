@@ -1,7 +1,36 @@
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px white;
+  background-color: #fff;
+  /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #25eb92;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #21d192;
+}
+
+
+
+
 body{
     /* background-color: #fefefeab; */
     background-color: #fefeff;
 }
+
 
 .fakeimg {
   height: 200px;
@@ -136,10 +165,10 @@ button {
   width: 95%;
 }
 .skills__css{
-  width: 82%;
+  width: 80%;
 }
 .skills__js{
-  width: 85%;
+  width: 87%;
 }
 .skills__ux{
   width: 87%;
@@ -154,5 +183,17 @@ button {
   box-shadow: 4px 4px 0px #5c5c5c;
 
 } */
-
-
+.img-icon :hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+/* 
+.foot{
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #0cdfbc;
+  position: relative;
+  bottom: 120px;
+  left: 120px;
+} */
