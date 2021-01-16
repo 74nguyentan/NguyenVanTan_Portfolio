@@ -1,16 +1,14 @@
 
-/**
- * Quyết Nguyễn (Quyetdaik)
- * https://fb.com/nhquyet
- */
 
 
-body {
+/* body {
       margin: 0;
-	  padding: 0;
-    }
+    padding: 0;
+    background-color: red;
+    } */
 
     #container {
+      /* background: red; */
       width: 100%;
       -webkit-perspective: 1000;
       -webkit-perspective-origin: 50% 620px;
@@ -24,9 +22,9 @@ body {
     
     #shape {
       position: relative;
-      top: 200px;
+      top: 100px;
       margin: 0 auto;
-      height: 200px;
+      height: 400px;
       width: 200px;
       -webkit-transform-style: preserve-3d;
     }
@@ -61,73 +59,73 @@ body {
     }
 	
     .one {
-		background-image: url(images/1.jpg);
+		background-image: url(./images/1.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .two {
-		background-image: url(images/2.jpg);
+		background-image: url(./images/2.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .three {
-		background-image: url(images/3.jpg);
+		background-image: url(./images/3.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .four {
-		background-image: url(images/4.jpg);
+		background-image: url(./images/4.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .five {
-		background-image: url(images/5.jpg);
+		background-image: url(./images/5.png);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .six {
-		background-image: url(images/6.jpg);
+		background-image: url(./images/6.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .seven {
-		background-image: url(images/7.jpg);
+		background-image: url(./images/7.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .eight {
-		background-image: url(images/8.jpg);
+		background-image: url(./images/8.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .nine {
-		background-image: url(images/9.jpg);
+		background-image: url(./images/1.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .ten {
-		background-image: url(images/10.jpg);
+		background-image: url(./images/2.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .eleven {
-		background-image: url(images/11.jpg);
+		background-image: url(./images/3.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .twelve {
-		background-image: url(images/12.jpg);
+		background-image: url(./images/4.jpg);
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
