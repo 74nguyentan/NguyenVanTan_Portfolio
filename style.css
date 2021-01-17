@@ -183,10 +183,10 @@ button {
   box-shadow: 4px 4px 0px #5c5c5c;
 
 } */
-.img-icon :hover{
+/* .img-icon :hover{
   transform: scale(1.2);
   transition-duration: 0.5s;
-}
+} */
 /* 
 .foot{
   width: 80%;
@@ -197,3 +197,32 @@ button {
   bottom: 120px;
   left: 120px;
 } */
+
+.work{
+  position: relative;
+  top: -275px;
+}
+.div-work{
+  width: 310px;
+  height: 420px;
+  background: white;
+  border-radius: 10px ;
+  border:dashed 0px #000000;
+   box-shadow: 0 4px 25px rgba(14,36,49,.1);
+  /* box-shadow: 0 4px 25px rgba(3,200,168,.15); */
+
+}
+
+.div-work:hover{
+   /* box-shadow: 0 4px 25px rgba(14,36,49,.2); */
+  box-shadow: 0 4px 25px rgba(3,200,168,.25);
+   
+   transition: 0.8s;
+}
+
+.work-bg{
+  height: 200px;
+  background:#03C8A8;
+  border-radius: 10px ;
+  box-shadow: 0 4px 25px rgba(3,200,168,.95);
+}
