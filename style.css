@@ -174,29 +174,7 @@ button {
   width: 87%;
 }
 
-
-/* .project{ */
-  /* border-radius: 8px; */
-  /* box-shadow: 0 4px 25px rgba(14,36,49,.15); */
-  /* -moz-box-shadow: 4px 4px 0px #5c5c5c;
-  -webkit-box-shadow: 4px 4px 0px #5c5c5c;
-  box-shadow: 4px 4px 0px #5c5c5c;
-
-} */
-/* .img-icon :hover{
-  transform: scale(1.2);
-  transition-duration: 0.5s;
-} */
-/* 
-.foot{
-  width: 80%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #0cdfbc;
-  position: relative;
-  bottom: 120px;
-  left: 120px;
-} */
+/* work */
 
 .work{
   position: relative;
@@ -224,5 +202,5 @@ button {
   height: 200px;
   background:#03C8A8;
   border-radius: 10px ;
-  box-shadow: 0 4px 25px rgba(3,200,168,.95);
+  box-shadow: 0 4px 25px rgba(3,200,168,.75);
 }
